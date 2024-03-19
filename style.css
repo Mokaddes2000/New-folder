@@ -1,0 +1,91 @@
+/* Custom CSS for Navbar */
+        .navbar-custom {
+            background-color: #3498db; /* Set your desired background color */
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-nav .nav-link {
+            color: #fff; /* Set your desired text color */
+        }
+
+        .navbar-custom .navbar-brand:hover,
+        .navbar-custom .navbar-nav .nav-link:hover {
+            color: #fff; /* Set your desired text color on hover */
+        }
+
+        .navbar-custom .dropdown-menu {
+            background-color: #3498db; /* Set your desired background color for dropdown */
+        }
+
+        .navbar-custom .dropdown-menu a {
+            color: #fff; /* Set your desired text color for dropdown items */
+        }
+
+        .navbar-custom .dropdown-menu a:hover {
+            background-color: #2980b9; /* Set your desired background color on dropdown item hover */
+            color: #fff; /* Set your desired text color on dropdown item hover */
+}
+ /* Custom CSS for Header */
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3498db; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 50px;
+}
+
+.header-content {
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #27ae60; /* Set your desired button color */
+    border-radius: 5px;
+}
+
+.header-video {
+    width: 100%;
+    max-width: 700px;
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    animation: floatAnimation 5s infinite alternate;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+ }
